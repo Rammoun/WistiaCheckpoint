@@ -1,0 +1,99 @@
+body{font-family: 'Comfortaa', cursive; font-size: 16px;}
+/* the navbar */
+.container, .section2, .section3, .section4, .footer-section1{ display: flex;  justify-content: space-between;}
+.icon{width: 17%; align-self: center; margin-right: 20px;}
+.menu{flex-grow: 2;}
+.menu-list{list-style: none;}
+.menu-list>li{display: inline;margin-left: 10px;}
+a{text-decoration: none; color:grey;}
+.login{flex-grow: 1; display: flex; padding-left: 40px;align-self: center; justify-content: space-between;}
+/* section1: video section*/
+.vid-parent{position: relative; width: 98vw; height: 550px;}
+iframe{width: 96%; height: 95%;}
+.vid-child{position: absolute; top: 100px; left: 65px;}
+.video-p{font-size: 3em; max-width: 45%; color: rgba(60,60,60,1.00);}
+.video-p>span{color: white;}
+.watch-video{padding: 20px 50px; background-color: white; border-radius: 8px; font-size: 25px;}
+/* Section 2*/
+.section2{display: flex; flex: 1; justify-content: space-between;}
+.section2-div{padding: 20px; display: flex; flex-direction: column; justify-content: space-around;}
+.section2-div h2{flex-basis: 60px;}
+.section2-div p{font-size: 1.5em; flex-basis: 120px;}
+.div-title{color: rgba(255,219,219,1.00);}
+.section2-div-button{
+	padding: 15px 25px;
+	border: 2px white solid; 
+	border-radius: 10px; 	
+	color: rgba(60,60,60,1.00);
+	font-size: 18px;
+	align-self: flex-start;
+}
+.section2-div-button:hover{background-color: white;}
+.div1{background-color: darkorange;}
+.div2{background-color: limegreen; }
+.div3{background-color: dodgerblue;}
+/*Section 3*/
+.section3{display: flex; align-items: center;}
+.client{width: 100px; margin: 40px 10px 50px;}
+.section3-div1{flex-basis:120px; margin-left: 40px; font-size: 18px; color: darkgrey;}
+/* section 4 */
+.section4{ display: flex; justify-content:space-around; margin: 40px;}
+.section4-div1, .section4-div2,.section4-div3 { flex-basis: 350px; display: flex; flex-direction: column; justify-content: space-between; }
+.section4-div1-img,.section4-div2-img,.section4-div3-img{ height:250px;width: 350px;}
+.section4-div-title{color: rgba(71,71,71,1.00); flex-basis: 15px;}
+.section4 p{flex-basis: 70px;}
+.section4-a{color: blue; text-decoration: underline;}
+.dog{position: relative;}
+.dog:after {
+  position: absolute;
+  content:"";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  opacity:0;
+  background-color: deepskyblue;
+}
+.dog:hover:after  {
+  opacity: .5;
+}
+.vid1{position: relative;}
+.vid1:after {
+  position: absolute;
+  content:"";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  opacity:0;
+  background-color:limegreen;
+}
+.vid1:hover:after  {
+  opacity: .5;
+}
+.vid2{position: relative;}
+.vid2:after {
+  position: absolute;
+  content:"";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  opacity:0;
+  background-color:indianred;
+}
+.vid2:hover:after  {
+  opacity: .5;
+}
+/* Section 5 */
+.section5{background-color: rgba(211,211,211,1.00); text-align: center; padding:10px 0px; }
+/* Footer */
+footer{padding: 50px 90px; background-color: rgba(50,50,50,1.00); color: whitesmoke;}
+footer a{color: aqua;}
+.footer-logo{ width: 40px;}
+.footer-section1{display: flex;}
+.footer-section1-div1{flex-basis: 300px; display: flex; flex-direction: column;}
+.footer-section1-div1 p, .footer-section1-div1 h4{flex-basis: 50px; font-size: 1.2em;}
+.footer-menu1-list{list-style-type: none;}
+.footer-menu1-list>h3{font-weight: bolder;}
+.footer-section2{text-align: center; padding: 25px 0px;}
