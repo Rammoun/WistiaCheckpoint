@@ -8,7 +8,7 @@ body{font-family: 'Comfortaa', cursive; font-size: 16px;}
 a{text-decoration: none; color:grey;}
 .login{flex-grow: 1; display: flex; padding-left: 40px;align-self: center; justify-content: space-between;}
 /* section1: video section*/
-.vid-parent{position: relative; width: 98vw; height: 550px;}
+.vid-parent{position: relative; width: 100%; height: 550px;}
 iframe{width: 96%; height: 95%;}
 .vid-child{position: absolute; top: 100px; left: 65px;}
 .video-p{font-size: 3em; max-width: 45%; color: rgba(60,60,60,1.00);}
